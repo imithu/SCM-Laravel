@@ -1,0 +1,12 @@
+{
+    "name": "imithu/scm-laravel",
+    "description": "Short Contact Message",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "imithu",
+            "email": "imithu@imithu.com"
+        }
+    ],
+    "require": {}
+}
