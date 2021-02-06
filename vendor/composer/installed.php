@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '07f45adb54cf2f2d4c8947476aa16b54824b3ad8',
+    'reference' => '4e8bf528633801a9aa7cc2278406322c4c6a7819',
     'name' => 'imithu/scm-laravel',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '07f45adb54cf2f2d4c8947476aa16b54824b3ad8',
+      'reference' => '4e8bf528633801a9aa7cc2278406322c4c6a7819',
     ),
   ),
 );
