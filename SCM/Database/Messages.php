@@ -16,7 +16,7 @@ class Messages
      * @return int
      * 
      * @since   1.0.0
-     * @version 1.0.0
+     * @version 1.1.0
      * @author  Mahmudul Hasan Mithu
      */
     public static function last_id()
@@ -24,7 +24,7 @@ class Messages
         date_default_timezone_set('UTC');
         $datetime = date('Y-m-d H:i:s');
 
-        DB::insert( 'INSERT INTO SCM_Messages (`id`, `archive`, `important`, `status`, `datetime` ) VALUES( NULL, ?, ?, ?, ? )', ['no', 'no', 'unread', $datetime ] );
+        DB::insert( 'INSERT INTO SCM_Messages (`id`, `archive`, `important`, `read_status`, `datetime` ) VALUES( NULL, ?, ?, ?, ? )', ['no', 'no', 'no', $datetime ] );
         $last_id = ((array) DB::select( 'SELECT MAX(id) FROM SCM_Messages' )[0])['MAX(id)'];
 
         return $last_id;
